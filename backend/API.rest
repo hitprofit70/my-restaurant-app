@@ -1,0 +1,23 @@
+### my server is working
+GET http://localhost:3000
+Content-Type: application/json
+
+### find all my products
+GET http://localhost:3000/products
+Content-Type: application/json
+
+### find my single product
+GET http://localhost:3000/products/3
+Content-Type: application/json
+
+### add my new product
+POST http://localhost:3000/products
+Content-Type: application/json
+
+### update my product
+PUT http://localhost:3000/products
+Content-Type: application/json
+
+### delete my product
+DELETE http://localhost:3000/products
+Content-Type: application/json

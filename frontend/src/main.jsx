@@ -5,11 +5,26 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
 import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from './pages/Home';
+import Menu from './pages/Menu';
+import Drinks from './pages/Drinks';
+import Foods from './pages/Foods';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home/>,
+  },
+  {
+    path: "/",
+    element: <Menu/>,
+  },
+  {
+    path: "/",
+    element: <Drinks/>,
+  },
+  {
+    path: "/",
+    element: <Foods/>,
   },
 ]);
 

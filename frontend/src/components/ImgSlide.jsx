@@ -6,7 +6,7 @@ const ImgSlide = () => {
     <div className="container mt-5">
       <Carousel
         fade
-        className="shadow bg-body rounded animate__animated animate__flip animate__infinite"
+        className="shadow bg-body rounded animate__animated animate__fadeInUp animate__repeat-3"
         style={{ borderRadius: "50px", animationDuration: "10s" }}
       >
         <Carousel.Item>

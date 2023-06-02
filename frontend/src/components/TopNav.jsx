@@ -6,7 +6,7 @@ const TopNav = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-secondary">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand animate__animated animate__fadeInUp animate__repeat-3">
             Meek's Restaurant
           </a>
           <button

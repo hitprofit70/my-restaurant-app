@@ -25,7 +25,7 @@ const BottomF = () => {
           <ion-icon name="logo-instagram"></ion-icon>
         </a></li>
     </ul>
-    <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+    <p>&copy;2023 Sibusiso Ramaube | All Rights Reserved</p>
     <div className="waves">
       <div className="wave" id="wave1"></div>
       <div className="wave" id="wave2"></div>

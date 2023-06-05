@@ -24,8 +24,9 @@ const myproducts = [{
 },
 ]
 
+//products Home in frontend
 const findAllProducts = (req,res) => {
-    res.status(200).json({data: myproducts});    
+    res.status(200).json({data: myproducts});  
 }
 
 const findSingleProduct = (req,res) => {
@@ -43,5 +44,6 @@ const updateProduct = (req,res) => {
 const deleteProduct = (req,res) => {
     res.status(200).json({msg: "delete my product"});    
 }
+
 
 module.exports = {findAllProducts, findSingleProduct, addNewProducts, updateProduct, deleteProduct};

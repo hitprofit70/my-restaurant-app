@@ -2,7 +2,7 @@ import React from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 
-const Menu = () => {
+const Menu = ({name1,price1}) => {
   return (
     <div>
       <TopNav />
@@ -27,7 +27,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                Chicken burger&two rolls with chips - R100
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -45,7 +45,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                Beef burger&two rolls with chips - R140
+              {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -63,7 +63,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                Beef burger& two rolls with rib - R133
+              {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -81,7 +81,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                Chicken burger&two rolls with rib - R123
+              {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -99,7 +99,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                Chicken&Beef Burger&rolls with chips and rib - R315
+              {name1} - R{price1}
               </span>
             </div>
             <div className="col">

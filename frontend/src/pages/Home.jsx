@@ -25,7 +25,7 @@ const Home = () => {
         <h1 className="animate__animated animate__fadeInUp animate__repeat-3 text-center">
           Welcome to Meek's Restaurant
         </h1>
-        <div className="row g-4">
+        <div className="row">
         {products.map((p, index) => (
               <ProductsCard
                 key={index}

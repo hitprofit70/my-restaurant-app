@@ -21,3 +21,13 @@ Content-Type: application/json
 ### delete my product
 DELETE http://localhost:3000/products
 Content-Type: application/json
+
+
+
+### find all my burgers
+GET http://localhost:3000/myBurger
+Content-Type: application/json
+
+### find my single burger
+GET http://localhost:3000/myBurger/3
+Content-Type: application/json

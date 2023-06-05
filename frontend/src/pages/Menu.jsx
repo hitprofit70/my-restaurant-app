@@ -8,11 +8,11 @@ const Menu = () => {
       <TopNav />
       <div className="container mt-5">
         <div
-          className="menu-form bg-dark mb-5"
+          className="menu-form bg-dark"
           style={{ width: "100%", height: "500px", borderRadius: "10px" }}
         >
-          <h3 className="text-center text-light mb-5">Our Menu</h3>
-          <div className="row row-cols-1 row-cols-md-4 g-4 text-center">
+          <h3 className="text-center text-light mt-5">Our Menu</h3>
+          <div className="row row-cols-1 row-cols-md-4 g-4 text-center mt-3">
             <div className="col">
               <span className="text-light fst-italic">Burger</span>
             </div>
@@ -26,7 +26,9 @@ const Menu = () => {
               <span className="text-light fst-italic">Drinks</span>
             </div>
             <div className="col">
-              <span className="text-light"> Chicken burger&two rolls with chips - R123</span>
+              <span className="text-light">
+                Chicken burger&two rolls with chips - R100
+              </span>
             </div>
             <div className="col">
               <span className="text-light">
@@ -34,13 +36,17 @@ const Menu = () => {
               </span>
             </div>
             <div className="col">
-              <span className="text-light">2 Slices of bread with russia and beef burger - R50</span>
+              <span className="text-light">
+                2 Slices of bread with russia and beef burger - R50
+              </span>
             </div>
             <div className="col">
               <span className="text-light">Americano coffee - R35</span>
             </div>
             <div className="col">
-              <span className="text-light">Beef burger&two rolls with chips - R140</span>
+              <span className="text-light">
+                Beef burger&two rolls with chips - R140
+              </span>
             </div>
             <div className="col">
               <span className="text-light">
@@ -48,13 +54,17 @@ const Menu = () => {
               </span>
             </div>
             <div className="col">
-              <span className="text-light">2 Slices of bread with chips and chicken burger - R65</span>
+              <span className="text-light">
+                2 Slices of bread with chips and chicken burger - R65
+              </span>
             </div>
             <div className="col">
               <span className="text-light">Black coffee - R30</span>
             </div>
             <div className="col">
-              <span className="text-light">Beef burger& two rolls with rib - R123</span>
+              <span className="text-light">
+                Beef burger& two rolls with rib - R133
+              </span>
             </div>
             <div className="col">
               <span className="text-light">
@@ -62,13 +72,17 @@ const Menu = () => {
               </span>
             </div>
             <div className="col">
-              <span className="text-light">2 Slices of bread with ham and beef burger - R65</span>
+              <span className="text-light">
+                2 Slices of bread with ham and beef burger - R65
+              </span>
             </div>
             <div className="col">
               <span className="text-light">Coke 440ml - R35</span>
             </div>
             <div className="col">
-              <span className="text-light">Chicken burger&two rolls with rib - R123</span>
+              <span className="text-light">
+                Chicken burger&two rolls with rib - R123
+              </span>
             </div>
             <div className="col">
               <span className="text-light">
@@ -76,21 +90,28 @@ const Menu = () => {
               </span>
             </div>
             <div className="col">
-              <span className="text-light">2 Slices of bread with tomatos and chicken burger - R55</span>
+              <span className="text-light">
+                2 Slices of bread with tomatos and chicken burger - R55
+              </span>
             </div>
             <div className="col">
               <span className="text-light">Sparking water 440ml - R20</span>
             </div>
             <div className="col">
-              <span className="text-light">Chicken&Beef Burger&rolls with chips and rib - R315</span>
-            </div>
-            <div className="col">
               <span className="text-light">
-                3 Slices of bread with chips, ham, pork french, russian and burger - R85
+                Chicken&Beef Burger&rolls with chips and rib - R315
               </span>
             </div>
             <div className="col">
-              <span className="text-light">2 Slices of bread with cheese and beef burger - R70</span>
+              <span className="text-light">
+                3 Slices of bread with chips, ham, pork french, russian and
+                burger - R85
+              </span>
+            </div>
+            <div className="col">
+              <span className="text-light">
+                2 Slices of bread with cheese and beef burger - R70
+              </span>
             </div>
             <div className="col">
               <span className="text-light">Orange juice - R30</span>

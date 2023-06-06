@@ -25,6 +25,7 @@ const myburger = [
 const findAllBurger = (req, res) => {
   res.status(200).json({ data: myburger });
 };
+
 const findSingleBurger = (req, res) => {
   res.status(200).json({ data: "get my single burger" });
 };

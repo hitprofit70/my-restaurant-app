@@ -2,16 +2,17 @@ import React, { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 
-const Menu = ({name1,price1}) => {
-  const [burger,setBurger] = useState([]);
+const Menu = () => {
+  const [burger, setBurger] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/myBurger")
-    .then((response) => response.json())
-    .then((data) => setBurger(data.data))
+    fetch("http://localhost:3000/myburger")
+      .then((response) => response.json())
+      .then((data) => setBurger(data.data));
   }, []);
 
-  console.log(burger)
+  console.log(burger);
+
   return (
     <div>
       <TopNav />
@@ -36,7 +37,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{price1}
+                {burger.name1} - R{burger.price1}
               </span>
             </div>
             <div className="col">
@@ -54,7 +55,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-              {name1} - R{price1}
+                {burger.name1} - R{burger.price1}
               </span>
             </div>
             <div className="col">
@@ -72,7 +73,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-              {name1} - R{price1}
+                {burger.name1} - R{burger.price1}
               </span>
             </div>
             <div className="col">
@@ -90,7 +91,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-              {name1} - R{price1}
+                {burger.name1} - R{burger.price1}
               </span>
             </div>
             <div className="col">
@@ -108,7 +109,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-              {name1} - R{price1}
+                {burger.name1} - R{burger.price1}
               </span>
             </div>
             <div className="col">

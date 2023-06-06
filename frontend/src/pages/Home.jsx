@@ -16,7 +16,6 @@ const Home = () => {
 
   console.log(products)
 
-
   return (
     <div>
       <TopNav />

@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const products = require('./router/products');
-const myBurger = require('../backend/router/menuburger')
+const myburger = require('../backend/router/menuburger')
 
 
 const PORT = process.env.PORT || 8000;
@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8000;
 app.use(express.json());
 app.use(cors());
 app.use('/products', products);
-app.use('/myBurger', myBurger);
+app.use('/myburger', myburger);
 
 app.get('/', (req,res) => {
     res.status(200).json({msg: "my server is working..."});

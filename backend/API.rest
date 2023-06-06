@@ -25,9 +25,9 @@ Content-Type: application/json
 
 
 ### find all my burgers
-GET http://localhost:3000/myBurger
+GET http://localhost:3000/myburger
 Content-Type: application/json
 
 ### find my single burger
-GET http://localhost:3000/myBurger/3
+GET http://localhost:3000/myburger/3
 Content-Type: application/json

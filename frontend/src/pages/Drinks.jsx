@@ -17,6 +17,8 @@ const Drinks = () => {
   return (
     <div>
       <TopNav/>
+      <div className='container'>
+        <div className='home-card'>
       {myDrinks.map((p, index) => (
               <ProductsCard
                 key={index}
@@ -26,6 +28,8 @@ const Drinks = () => {
                 price={p.price}
               />
             ))}
+            </div>
+            </div>
       <BottomF/>
     </div>
   )

@@ -24,8 +24,7 @@ const Home = () => {
         <h1 className="animate__animated animate__fadeInUp animate__repeat-3 text-center">
           Welcome to Meek's Restaurant
         </h1>
-        <div className="row">
-          <div className="">
+        <div className="home-card">
         {myProducts.map((p, index) => (
               <ProductsCard
                 key={index}
@@ -35,7 +34,6 @@ const Home = () => {
                 price={p.price}
               />
             ))}
-            </div>
         </div>
       </div>
       <BottomF />

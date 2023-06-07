@@ -4,20 +4,22 @@ import BottomF from '../components/BottomF';
 import ProductsCard from '../components/ProductsCard';
 
 const Foods = () => {
-  const [foods, setFoods] = useState([])
+  const [myFoods, setMyFoods] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/foods")
     .then((response) => response.json())
-    .then((data) => setFoods(data.data))
+    .then((data) => setMyFoods(data.data))
   }, []);
 
-  console.log(foods)
+  console.log(myFoods)
 
   return (
     <div>
       <TopNav/>
-      {foods.map((p, index) => (
+      <div className='container'>
+        <div className='home-card'>
+      {myFoods.map((p, index) => (
               <ProductsCard
                 key={index}
                 id={p.id}
@@ -26,6 +28,8 @@ const Foods = () => {
                 price={p.price}
               />
             ))}
+            </div>
+            </div>
       <BottomF/>
     </div>
   )

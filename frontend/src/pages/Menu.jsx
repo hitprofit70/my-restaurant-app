@@ -2,16 +2,16 @@ import React, { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 
-const Menu = () => {
-  const [burger, setBurger] = useState([]);
+const Menu = ({name1, price1}) => {
+  const [myMenu, setMyMenu] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/myburger")
+    fetch("http://localhost:3000/menu")
       .then((response) => response.json())
-      .then((data) => setBurger(data.data));
+      .then((data) => setMyMenu(data.data));
   }, []);
 
-  console.log(burger);
+  console.log(myMenu);
 
   return (
     <div>
@@ -37,7 +37,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{burger.price1}
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -55,7 +55,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{burger.price1}
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -73,7 +73,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{burger.price1}
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -91,7 +91,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{burger.price1}
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">
@@ -109,7 +109,7 @@ const Menu = () => {
             </div>
             <div className="col">
               <span className="text-light">
-                {burger.name1} - R{burger.price1}
+                {name1} - R{price1}
               </span>
             </div>
             <div className="col">

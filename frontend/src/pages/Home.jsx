@@ -6,15 +6,15 @@ import ProductsCard from "../components/ProductsCard";
 
 const Home = () => {
 
-  const [products,setProducts] = useState([]);
+  const [myProducts,setMyProducts] = useState([]);
 
   useEffect(() => {
     fetch("http://localhost:3000/products")
     .then((response) => response.json())
-    .then((data) => setProducts(data.data))
+    .then((data) => setMyProducts(data.data))
   }, []);
 
-  console.log(products)
+  console.log(myProducts)
 
   return (
     <div>
@@ -26,7 +26,7 @@ const Home = () => {
         </h1>
         <div className="row">
           <div className="">
-        {products.map((p, index) => (
+        {myProducts.map((p, index) => (
               <ProductsCard
                 key={index}
                 id={p.id}

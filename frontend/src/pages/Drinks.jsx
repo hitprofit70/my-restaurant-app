@@ -5,19 +5,19 @@ import ProductsCard from '../components/ProductsCard';
 import { useState, useEffect } from 'react';
 
 const Drinks = () => {
-  const [drinks, setDrinks] = useState([])
+  const [myDrinks, setMyDrinks] = useState([])
 
   useEffect(() => {
     fetch("http://localhost:3000/drinks")
     .then((response) => response.json())
-    .then((data) => setDrinks(data.data))
+    .then((data) => setMyDrinks(data.data))
   }, []);
 
-  console.log(drinks)
+  console.log(myDrinks)
   return (
     <div>
       <TopNav/>
-      {drinks.map((p, index) => (
+      {myDrinks.map((p, index) => (
               <ProductsCard
                 key={index}
                 id={p.id}

@@ -1,40 +1,49 @@
-### my server is working
+# const myMenu = [
+#   {
+#     name1: "Chicken burger&two rolls with chips",
+#     price1: 100,
+#   },
+#   {
+#     name1: "Beef burger&two rolls with chips",
+#     price1: 140,
+#   },
+#   {
+#     name1: "Beef burger& two rolls with rib",
+#     price1: 133,
+#   },
+#   {
+#     name1: "Chicken burger&two rolls with rib",
+#     price1: 123,
+#   },
+#   {
+#     name1: "Chicken&Beef Burger&rolls with chips and rib",
+#     price1: 315,
+#   },
+# ];
+
+
+### my server is running
 GET http://localhost:3000
 Content-Type: application/json
 
-//////////myproducts//////////
-### find all my products
+
+/////////////////PRODUCTS//////////////////
+### get all products
 GET http://localhost:3000/products
 Content-Type: application/json
 
-### find my single product
-GET http://localhost:3000/products/3
-Content-Type: application/json
 
-### add my new product
-POST http://localhost:3000/products
-Content-Type: application/json
-
-### update my product
-PUT http://localhost:3000/products
-Content-Type: application/json
-
-### delete my product
-DELETE http://localhost:3000/products
-Content-Type: application/json
+//////////////////MENU/////////////////
+### get all menu
 
 
-//////////mymenu//////////
-### find all my menu
-GET http://localhost:3000/menu
-Content-Type: application/json
-
-### find my single menu
-GET http://localhost:3000/menu/3
-Content-Type: application/json
-
-
-///////////mydrinks//////////
-### find all my drinks
+/////////////////DRINKS/////////////////
+### get all drinks
 GET http://localhost:3000/drinks
+Content-Type: application/json
+
+
+///////////////FOODS////////////////////
+### get all foods
+GET http://localhost:3000/foods
 Content-Type: application/json

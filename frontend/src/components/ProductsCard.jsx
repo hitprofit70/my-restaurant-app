@@ -4,7 +4,7 @@ const ProductsCard = ({imgP,name,price}) => {
   return (
     <div className="container mt-5 mb-5">
       <div
-        className="row g-4 animate__animated animate__fadeInUp animate__repeat-2"
+        className="row animate__animated animate__fadeInUp animate__repeat-2"
         style={{ animationDuration: "5s" }}
       >
         <div className="col-6 col-md-3">

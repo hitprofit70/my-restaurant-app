@@ -25,6 +25,7 @@ const Home = () => {
           Welcome to Meek's Restaurant
         </h1>
         <div className="row">
+          <div className="">
         {products.map((p, index) => (
               <ProductsCard
                 key={index}
@@ -34,6 +35,7 @@ const Home = () => {
                 price={p.price}
               />
             ))}
+            </div>
         </div>
       </div>
       <BottomF />

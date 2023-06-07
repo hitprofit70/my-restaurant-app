@@ -19,7 +19,7 @@ const myburger = [
     name1: "Chicken&Beef Burger&rolls with chips and rib",
     price1: 315,
   },
-];
+]
 
 //data from Menu in frotend
 const findAllBurger = (req, res) => {

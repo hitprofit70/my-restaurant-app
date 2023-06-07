@@ -2,7 +2,7 @@
 GET http://localhost:3000
 Content-Type: application/json
 
-/////products/////
+//////////myproducts//////////
 ### find all my products
 GET http://localhost:3000/products
 Content-Type: application/json
@@ -24,17 +24,17 @@ DELETE http://localhost:3000/products
 Content-Type: application/json
 
 
-/////burgers/////
+//////////myburgers//////////
 ### find all my burgers
-GET http://localhost:3000/myburger
+GET http://localhost:3000/burger
 Content-Type: application/json
 
 ### find my single burger
-GET http://localhost:3000/myburger/3
+GET http://localhost:3000/burger/3
 Content-Type: application/json
 
 
-//////drinks/////
-### find all drinks
+///////////mydrinks//////////
+### find all my drinks
 GET http://localhost:3000/drinks
 Content-Type: application/json

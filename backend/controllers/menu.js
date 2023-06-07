@@ -1,4 +1,4 @@
-const myburger = [
+const mymenu = [
   {
     name1: "Chicken burger&two rolls with chips",
     price1: 100,
@@ -22,12 +22,12 @@ const myburger = [
 ]
 
 //data from Menu in frotend
-const findAllBurger = (req, res) => {
-  res.status(200).json({ data: myburger });
+const findAllMenu = (req, res) => {
+  res.status(200).json({ data: mymenu });
 };
 
-const findSingleBurger = (req, res) => {
+const findSingleMenu = (req, res) => {
   res.status(200).json({ data: "get my single burger" });
 };
 
-module.exports = { findAllBurger, findSingleBurger };
+module.exports = { findAllMenu, findSingleMenu };

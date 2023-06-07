@@ -24,13 +24,13 @@ DELETE http://localhost:3000/products
 Content-Type: application/json
 
 
-//////////myburgers//////////
-### find all my burgers
-GET http://localhost:3000/burger
+//////////mymenu//////////
+### find all my menu
+GET http://localhost:3000/menu
 Content-Type: application/json
 
-### find my single burger
-GET http://localhost:3000/burger/3
+### find my single menu
+GET http://localhost:3000/menu/3
 Content-Type: application/json
 
 

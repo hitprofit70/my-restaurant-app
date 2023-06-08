@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 
-const Menu = ({name1, price1}) => {
+const Menu = ({name1,price1}) => {
   const [myMenu, setMyMenu] = useState([]);
 
   useEffect(() => {
@@ -22,6 +22,15 @@ const Menu = ({name1, price1}) => {
           style={{ width: "100%", height: "500px", borderRadius: "10px" }}
         >
           <h3 className="text-center text-light mt-5">Our Menu</h3>
+
+          {/* {myMenu.map((p,index) => (
+            <div className="row">
+              key={index}
+              id={p.id}
+              {p.name1}
+              price1={p.price1}
+            </div>
+          ))} */}
           <div className="row row-cols-1 row-cols-md-4 g-4 text-center mt-3">
             <div className="col">
               <span className="text-light fst-italic">Burger</span>

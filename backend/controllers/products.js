@@ -29,4 +29,8 @@ const findAllProducts = (req,res) => {
     res.status(200).json({data: myProducts});
 };
 
-module.exports = {findAllProducts};
+const findSingleProduct = (req,res) => {
+  res.status(200).json({data: myProducts});
+};
+
+module.exports = {findAllProducts, findSingleProduct};

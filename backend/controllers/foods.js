@@ -38,7 +38,7 @@ const myFoods = [
     {
       id: 18,
       imgP: "https://media.istockphoto.com/id/1254672762/photo/delicious-homemade-hamburger-and-french-fries.webp?b=1&s=170667a&w=0&k=20&c=a0kPiHhzTncW-_LdM7cXcLiB9KLXuEb8KAJt7AlVuO0=",
-      name: "Avocado Bacon Cheeseburger",
+      name: "Avocado Cheeseburger",
       price: 130,
     },
     {

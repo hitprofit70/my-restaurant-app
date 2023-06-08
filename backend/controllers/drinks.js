@@ -20,13 +20,13 @@ const myDrinks = [
   {
     id: 8,
     imgP: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGRyaW5rc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    name: "Cocktial",
+    name: "Kiwit Cocktial",
     price: 69,
   },
   {
     id: 9,
     imgP: "https://images.unsplash.com/photo-1560963689-b5682b6440f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDJ8fGRyaW5rc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    name: "Cocktial",
+    name: "Several Cocktial",
     price: 60,
   },
   {
@@ -38,7 +38,7 @@ const myDrinks = [
   {
     id: 11,
     imgP: "https://images.unsplash.com/photo-1560508180-03f285f67ded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fGRyaW5rc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
-    name: "Cocktial",
+    name: "Strawbeery Cocktial",
     price: 60,
   },
   {

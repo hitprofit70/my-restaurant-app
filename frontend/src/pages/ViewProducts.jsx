@@ -46,10 +46,8 @@ const ViewProducts = () => {
                   <h6 className="border">R{myProducts.price}</h6>
                   <span className="border">Free Delivery</span>
                   <div className="">
-                    {" "}
                     <button
                       className="add-button mt-3"
-                      onClick={() => addToCart(myProducts)}
                     >
                       AddtoCart
                     </button>

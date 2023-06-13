@@ -10,7 +10,7 @@ GET http://localhost:3000/products
 Content-Type: application/json
 
 ### get my single product
-http://localhost:3000/products/2
+http://localhost:3000/products/1
 Content-Type: application/json
 
 

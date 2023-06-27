@@ -12,7 +12,7 @@ const ViewProducts = () => {
   const [myProducts, setMyProducts] = useState([]);
 
   useEffect(() => {
-    fetch(`http://localhost:3000/products/${id}`)
+    fetch('http://localhost:3000/products/:id')
       .then((response) => response.json())
       .then((data) => setMyProducts(data.data))
   }, [id]);
@@ -21,7 +21,7 @@ const ViewProducts = () => {
     <div>
       <TopNav />
       <div className='container mt-5'>
-        {myProducts &&
+        {myProducts && (
           <div className="row">
             <Row>
               <Col style={{ width: "20px", height: "350px" }}>
@@ -31,7 +31,6 @@ const ViewProducts = () => {
                     src={myProducts.imgP}
                     alt="First slide"
                   />
-
                 </Card>
               </Col>
               <Col style={{ width: "350px", height: "350px" }}>
@@ -50,7 +49,7 @@ const ViewProducts = () => {
               </Col>
             </Row>
           </div>
-        }
+        )}
       </div>
       <BotttomF />
     </div>

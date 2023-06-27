@@ -14,8 +14,6 @@ const Home = () => {
     .then((data) => setMyProducts(data.data))
   }, []);
 
-  console.log(myProducts)
-
   return (
     <div>
       <TopNav />

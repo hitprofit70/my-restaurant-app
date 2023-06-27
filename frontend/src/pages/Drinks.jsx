@@ -13,7 +13,6 @@ const Drinks = () => {
     .then((data) => setMyDrinks(data.data))
   }, []);
 
-  console.log(myDrinks)
   return (
     <div>
       <TopNav/>

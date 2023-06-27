@@ -29,7 +29,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 150px;
   }
   
   .social-icon,
@@ -141,7 +141,7 @@ body{
   }
 
   .add-button {
-    background: linear-gradient(grey,white);
+    background: linear-gradient(black);
     border-radius: 5px;
     width: 100px;
     height: 35px;
@@ -149,11 +149,13 @@ body{
 
   .add-button:hover {
   transform: scale(1.1);
+  background-color: black;
+  color: white;
   transition: 1s;
   }
 
   .view-button {
-    background: linear-gradient(grey,white);
+    background: linear-gradient(black);
     border-radius: 5px;
     width: 100px;
     height: 35px;
@@ -161,5 +163,7 @@ body{
   
   .view-button:hover {
     transform: scale(1.1);
+    background-color: black;
+    color: white;
     transition: 1s;
   }

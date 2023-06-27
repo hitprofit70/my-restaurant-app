@@ -11,8 +11,6 @@ const Menu = ({name1,price1}) => {
       .then((data) => setMyMenu(data.data));
   }, []);
 
-  console.log(myMenu);
-
   return (
     <div>
       <TopNav />

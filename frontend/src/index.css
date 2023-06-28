@@ -57,6 +57,16 @@ body{
   .social-icon__link:hover {
     transform: translateY(-10px);
   }
+
+  .cart-icon {
+    margin-left: 500px;
+    cursor: pointer;
+  }
+
+  /* .cart-icon:hover {
+    transform: scale(1.2);
+    transition: 3s;
+  } */
   
   .menu__link {
     font-size: 1.2rem;

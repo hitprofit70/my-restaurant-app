@@ -6,6 +6,9 @@ const CartPage = () => {
   return (
     <div>
     <TopNav/>
+    <div className='container'>
+    <h1>WAHHS</h1>
+    </div>
     <BottomF/>
     </div>
   )

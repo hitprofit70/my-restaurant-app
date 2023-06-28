@@ -38,7 +38,7 @@ const ViewProducts = () => {
                   <span className="bg-dark border text-light">Free Delivery</span>
                   <div className="">
                     <button
-                      className="add-button mt-3"
+                      className="add-button mt-3 animate__heartBeat"
                     >
                       AddtoCart
                     </button>

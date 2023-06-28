@@ -9,6 +9,7 @@ import Menu from './pages/Menu';
 import Drinks from './pages/Drinks';
 import Foods from './pages/Foods';
 import ViewProducts from './pages/ViewProducts';
+import CartPage from './pages/CartPage';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/viewproductspage/:id",
     element: <ViewProducts/>,
+  },
+  {
+    path: "/cartpage",
+    element: <CartPage/>,
   },
 ]);
 

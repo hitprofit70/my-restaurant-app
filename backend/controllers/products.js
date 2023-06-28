@@ -22,7 +22,7 @@ const myProducts = [
       imgP: "https://images.unsplash.com/photo-1675914850327-87b816de133e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIyMnx4alBSNGhsa0JHQXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
       name: "Americano Coffee",
       price: 60,
-    },
+    }
   ];
 
 const findAllProducts = (req,res) => {
@@ -30,7 +30,11 @@ const findAllProducts = (req,res) => {
 };
 
 const findSingleProduct = (req,res) => {
-  res.status(200).json({data: myProducts});
+  const id = parseInt(req.params.id)
+ let data = myProducts.find(myProduct => myProduct.id == id)
+  
+    res.status(200).json({data });
+  
 };
 
 module.exports = {findAllProducts, findSingleProduct};

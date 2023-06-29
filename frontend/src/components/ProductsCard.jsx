@@ -5,7 +5,7 @@ const ProductsCard = ({id,imgP,name,price}) => {
   return (
     <div className="container mt-5">
       <div
-        className="row animate__animated animate__fadeInUp animate__repeat-2"
+        className="row animate__animated animate__fadeInUp animate__repeat-1"
         style={{ animationDuration: "5s" }}
       >
         <div className="col">
@@ -21,7 +21,7 @@ const ProductsCard = ({id,imgP,name,price}) => {
             <div className="card-body">
               <h5 className="card-title">{name}</h5>
               <p className="card-text">R{price}</p>
-              <Link to={`/viewproductspage${id}`}>
+              <Link to={`/viewproductspage/${id}`}>
               <button className="btn btn-secondary">View</button>
               </Link>
              

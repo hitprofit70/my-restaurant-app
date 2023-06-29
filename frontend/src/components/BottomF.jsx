@@ -5,20 +5,6 @@ const BottomF = () => {
   return (
     <div>
       <footer className="footer">
-        <ul className="menu">
-          <li className="menu__item">
-            <a className="menu__link text-light">Help</a>
-          </li>
-          <li className="menu__item">
-            <a className="menu__link">Information</a>
-          </li>
-          <li className="menu__item">
-            <a className="menu__link">Contact US</a>
-          </li>
-          {/* <li className="menu__item">
-            <a className="menu__link">Social Media</a>
-          </li> */}
-        </ul>
         <ul className="social-icon">
           <li className="social-icon__item">
             <Link to="https://www.facebook.com/DigitalAcademySA/" className="social-icon__link">

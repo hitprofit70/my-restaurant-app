@@ -30,7 +30,11 @@ const findAllProducts = (req,res) => {
 };
 
 const findSingleProduct = (req,res) => {
-  res.status(200).json({data: myProducts});
+  const id = parseInt(req.params.id)
+ let data = myProducts.find(myProduct => myProduct.id == id)
+  
+    res.status(200).json({data });
+  
 };
 
 module.exports = {findAllProducts, findSingleProduct};

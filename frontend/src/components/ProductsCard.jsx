@@ -22,7 +22,7 @@ const ProductsCard = ({id,imgP,name,price}) => {
               <h5 className="card-title">{name}</h5>
               <p className="card-text">R{price}</p>
               <Link to={`/viewproductspage/${id}`}>
-              <button className="btn btn-secondary">View</button>
+              <button className="view-button">View</button>
               </Link>
              
             </div>

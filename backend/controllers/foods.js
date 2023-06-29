@@ -20,13 +20,13 @@ const myFoods = [
     {
       id: 16,
       imgP: "https://images.unsplash.com/photo-1606419420761-4f2aa891ed19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGZhbmN5JTIwZm9vZHN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
-      name: "Steak with fried onion",
+      name: "Steak with Fried Onion",
       price: 319,
     },
     {
       id: 17,
       imgP: "https://media.istockphoto.com/id/1410844723/photo/delicious-juicy-cheeseburgers-served-with-french-fries.webp?b=1&s=170667a&w=0&k=20&c=OVYITEDJ_Xa_ZZHPoo0gHosya0uuvrDpmAZxdnH5DLM=",
-      name: "Steak with fried onion",
+      name: "Steak with fried Onion",
       price: 165,
     },
     {

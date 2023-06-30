@@ -20,7 +20,7 @@ const myProducts = [
     {
       id: 4,
       imgP: "https://images.unsplash.com/photo-1675914850327-87b816de133e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIyMnx4alBSNGhsa0JHQXx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60",
-      name: "Americano Coffeo",
+      name: "Americano Coffee",
       price: 60,
     },
   ];

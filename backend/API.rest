@@ -35,3 +35,7 @@ Content-Type: application/json
 ### get all foods
 GET http://localhost:3000/foods
 Content-Type: application/json
+
+### get my single food
+GET http://localhost:3000/foods/21
+Content-Type: application/json

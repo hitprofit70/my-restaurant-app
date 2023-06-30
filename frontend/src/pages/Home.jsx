@@ -22,17 +22,15 @@ const Home = () => {
         <h1 className="animate__animated animate__fadeInUp animate__repeat-3 text-center">
           Welcome to Meek's Restaurant
         </h1>
-        <div className="home-card">
         {myProducts.map((p, index) => (
-              <ProductsCard
+          <ProductsCard
                 key={index}
                 id={p.id}
                 name={p.name}
                 imgP={p.imgP}
                 price={p.price}
-              />
+              />    
             ))}
-        </div>
       </div>
       <BottomF />
     </div>

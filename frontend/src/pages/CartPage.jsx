@@ -11,8 +11,8 @@ const CartPage = () => {
                     <li class="list-group-item bg-black">
                         <img src='https://t3.ftcdn.net/jpg/05/81/94/08/240_F_581940851_vrw6QHGEaHbM5V8mRsafjfWQXW0o7pZt.jpg' />
                     </li>
-                    <li class="list-group-item">Meat</li>
-                    <li class="list-group-item">R190</li>
+                    <li className="list-group-item">Meat</li>
+                    <li className="list-group-item">R190</li>
                 </ul>
             </div>
             <BottomF />

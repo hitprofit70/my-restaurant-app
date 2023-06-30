@@ -18,7 +18,7 @@ const Foods = () => {
     <div>
       <TopNav/>
       <div className='container'>
-        <div className='home-card'>
+        <div className=''>
       {myFoods.map((p, index) => (
               <ProductsCard
                 key={index}

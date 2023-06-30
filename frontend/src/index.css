@@ -137,7 +137,8 @@ body{
   }
   .home-card {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    width: 80%;
+    grid-template-columns: 50px 4fr
   }
 
   .add-button {

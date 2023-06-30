@@ -18,11 +18,11 @@ const Menu = ({name1,price1}) => {
       <TopNav />
       <div className="container mt-5">
         <div
-          className="menu-form bg-dark"
-          style={{ width: "100%", height: "500px", borderRadius: "10px" }}
+          className="menu-form bg-dark mb-5"
+          style={{ width: "100%", borderRadius: "10px" }}
         >
           <h3 className="text-center text-light mt-5">Our Menu</h3>
-          <div className="row row-cols-1 row-cols-md-4 g-4 text-center mt-3">
+          <div className="row row-cols-1 row-cols-md-4 g-4 text-center">
             <div className="col">
               <span className="text-light fst-italic">Burger</span>
             </div>

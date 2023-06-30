@@ -4,12 +4,14 @@ import Stack from "react-bootstrap/Stack";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
 const ViewProducts = () => {
   const [myProducts, setMyProducts] = useState([]);
+  const { id } = useParams();
 
   useEffect(() => {
-    fetch("http://localhost:3000/products/1")
+    fetch(`http://localhost:3000/products/${id}`)
       .then((response) => response.json())
       .then((data) => setMyProducts(data.data))
   }, []);

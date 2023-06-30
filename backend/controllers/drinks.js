@@ -53,4 +53,11 @@ const findAllDrinks = (req, res) => {
   res.status(200).json({ data: myDrinks });
 };
 
-module.exports = { findAllDrinks };
+const findSingleProduct = (req, res) => {
+  const id = parseInt(req.params.id)
+  let data = myDrinks.find(myDrink => myDrink.id == id)
+
+  res.status(200).json({ data });
+};
+
+module.exports = { findAllDrinks, findSingleProduct };

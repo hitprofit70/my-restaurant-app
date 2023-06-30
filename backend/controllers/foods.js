@@ -53,4 +53,12 @@ const findAllFoods = (req,res) => {
     res.status(200).json({data: myFoods});
 };
 
-module.exports = {findAllFoods};
+const findSingleFood = (req,res) => {
+const id = parseInt(req.params.id)
+let data = myFoods.find(myFood => myFood.id == id)
+
+res.status(200).json({ data });
+
+};
+
+module.exports = {findAllFoods, findSingleFood};

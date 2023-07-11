@@ -3,13 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'animate.css';
-import {createBrowserRouter,RouterProvider,} from "react-router-dom";
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Drinks from './pages/Drinks';
 import Foods from './pages/Foods';
 import ViewProducts from './pages/ViewProducts';
 import CartPage from './pages/CartPage';
+import {createBrowserRouter,RouterProvider,} from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {

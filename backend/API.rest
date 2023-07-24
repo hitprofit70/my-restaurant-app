@@ -26,8 +26,16 @@ Content-Type: application/json
 GET http://localhost:3000/drinks
 Content-Type: application/json
 
+### get single drink
+GET http://localhost:3000/drinks/7
+Content-Type: application/json
+
 
 ///////////////FOODS////////////////////
 ### get all foods
 GET http://localhost:3000/foods
+Content-Type: application/json
+
+### get single food
+GET http://localhost:3000/foods/15
 Content-Type: application/json

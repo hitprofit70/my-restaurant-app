@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 
@@ -35,7 +35,7 @@ const Menu = ({name1,price1}) => {
             </div>
             <div className="col">
               <span className="text-light">
-                {name1} - R{price1}
+                {myMenu.name1} - R{myMenu.price1}
               </span>
             </div>
             <div className="col">

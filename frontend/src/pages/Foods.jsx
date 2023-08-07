@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import TopNav from '../components/TopNav';
 import BottomF from '../components/BottomF';
 import ProductsCard from '../components/ProductsCard';

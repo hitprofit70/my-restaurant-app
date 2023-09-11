@@ -22,6 +22,7 @@ const Home = () => {
         <h1 className="animate__animated animate__fadeInUp animate__repeat-3 text-center">
           Welcome to Restaurant App
         </h1>
+        <div className="products-card">
         {myProducts.map((p, index) => (
           <ProductsCard
                 key={index}
@@ -31,6 +32,7 @@ const Home = () => {
                 price={p.price}
               />    
             ))}
+        </div>
       </div>
       <BottomF />
     </div>

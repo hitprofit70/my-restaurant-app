@@ -7,10 +7,10 @@ const ProductsCard = ({id,imgP,name,price}) => {
         className="row animate__animated animate__fadeInUp animate__repeat-1"
         style={{ animationDuration: "5s" }}
       >
-        <div className="col">
+      <div className="col">
           <div
             className="card shadow bg-body rounded"
-            style={{ width: "300px", height: "400px", borderRadius: "5px" }}
+            style={{ width: "280px", height: "400px", borderRadius: "5px" }}
           >
             <img
               src={imgP}
@@ -23,10 +23,10 @@ const ProductsCard = ({id,imgP,name,price}) => {
               <Link to={`/viewproductspage/${id}`}>
               <button className="view-button">View</button>
               </Link>
-             
             </div>
           </div>
-        </div>
+          </div>
+       
       </div>
     </div>
   );

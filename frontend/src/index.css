@@ -20,6 +20,16 @@ body {
   cursor: pointer;
 }
 
+.row .card {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products-card {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
 .view-button {
   background: linear-gradient(black);
   border-radius: 5px;
@@ -32,13 +42,6 @@ body {
   background-color: black;
   color: white;
   transition: 1s;
-}
-
-
-.row .col {
-  display: grid;
-  width: 80%;
-  grid-template-columns: auto auto auto auto;
 }
 
 

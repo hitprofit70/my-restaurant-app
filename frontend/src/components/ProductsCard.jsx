@@ -11,11 +11,11 @@ const ProductsCard = ({id,imgP,name,price}) => {
         <div className="col">
           <div
             className="card shadow bg-body rounded"
-            style={{ width: "300px", height: "400px" }}
+            style={{ width: "300px", height: "400px", borderRadius: "5px" }}
           >
             <img
               src={imgP}
-              style={{ height: "250px", width: "100%" }}
+              style={{ height: "250px", width: "100%", borderRadius: "5px"}}
               alt="..."
             />
             <div className="card-body">

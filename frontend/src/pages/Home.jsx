@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import TopNav from "../components/TopNav";
 import BottomF from "../components/BottomF";
 import ImgSlide from "../components/ImgSlide";
@@ -20,7 +20,7 @@ const Home = () => {
       <ImgSlide />
       <div className="container mt-5">
         <h1 className="animate__animated animate__fadeInUp animate__repeat-3 text-center">
-          Welcome to Meek's Restaurant
+          Welcome to Restaurant App
         </h1>
         {myProducts.map((p, index) => (
           <ProductsCard

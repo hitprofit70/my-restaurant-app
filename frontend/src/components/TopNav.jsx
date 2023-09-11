@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
 const TopNav = () => {
@@ -7,7 +6,7 @@ const TopNav = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container">
           <a className="navbar-brand animate__animated animate__fadeInUp animate__repeat-3">
-            Meek's Restaurant
+          Restaurant App
           </a>
           <button
             className="navbar-toggler"

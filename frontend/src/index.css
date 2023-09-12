@@ -1,7 +1,8 @@
 body {
   background-image: url(./assets/istockphoto-1472950710-612x612.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); */
@@ -27,7 +28,7 @@ body {
 
 .products-card {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 330px 330px 330px 330px;
 }
 
 .view-button {

@@ -37,18 +37,18 @@ const ViewProducts = () => {
         {myProducts && (
           <div className="row">
             <Row>
-              <Col style={{ width: "300px", height: "350px" }}>
+              <Col style={{ width: "300px", height: "350px", borderRadius: "5px" }}>
                 <img
-                  style={{ width: "90%", height: "300px" }}
+                  style={{ width: "90%", height: "300px", borderRadius: "5px" }}
                   src={myProducts.imgP}
                   alt="First slide"
                 />
               </Col>
               <Col style={{ width: "300px", height: "350px" }}>
                 <Stack className="text-center mr-5 mt-3 mb-3" gap={3}>
-                  <h4 className="bg-dark mr-5 text-light">{myProducts.name}</h4>
-                  <h6 className="border bg-dark text-light">R{myProducts.price}</h6>
-                  <span className="border bg-dark text-light">Free Delivery</span>
+                  <h4 className="bg-dark mr-5 text-light" style={{borderRadius: "5px"}}>{myProducts.name}</h4>
+                  <h6 className="border bg-dark text-light" style={{borderRadius: "5px"}}>R{myProducts.price}</h6>
+                  <span className="border bg-dark text-light" style={{borderRadius: "5px"}}>Free Delivery</span>
                   <div className="">
                     <button
                       className="add-button mt-3 animate__heartBeat"
@@ -64,18 +64,18 @@ const ViewProducts = () => {
         {myDrinks && (
           <div className="row">
             <Row>
-              <Col style={{ width: "350px", height: "350px" }}>
+              <Col style={{ width: "350px", height: "350px", borderRadius: "5px" }}>
                 <img
-                  style={{ width: "100%", height: "300px" }}
+                  style={{ width: "100%", height: "300px", borderRadius: "5px"}}
                   src={myDrinks.imgP}
                   alt="First slide"
                 />
               </Col>
               <Col style={{ width: "350px", height: "350px" }}>
                 <Stack className="text-center mr-5 mt-3 mb-3" gap={3}>
-                  <h4 className="bg-dark mr-5 text-light">{myDrinks.name}</h4>
-                  <h6 className="border bg-dark text-light">R{myDrinks.price}</h6>
-                  <span className="border bg-dark text-light">Free Delivery</span>
+                  <h4 className="bg-dark mr-5 text-light" style={{borderRadius: "5px"}}>{myDrinks.name}</h4>
+                  <h6 className="border bg-dark text-light" style={{borderRadius: "5px"}}>R{myDrinks.price}</h6>
+                  <span className="border bg-dark text-light" style={{borderRadius: "5px"}}>Free Delivery</span>
                   <div className="">
                     <button
                       className="add-button mt-3 animate__heartBeat"
@@ -91,18 +91,18 @@ const ViewProducts = () => {
         {myFoods && (
           <div className="row">
             <Row>
-              <Col style={{ width: "350px", height: "350px" }}>
+              <Col style={{ width: "350px", height: "350px", borderRadius: "5px" }}>
                 <img
-                  style={{ width: "100%", height: "300px" }}
+                  style={{ width: "100%", height: "300px", borderRadius: "5px" }}
                   src={myFoods.imgP}
                   alt="First slide"
                 />
               </Col>
               <Col style={{ width: "350px", height: "350px" }}>
                 <Stack className="text-center mr-5 mt-3 mb-3" gap={3}>
-                  <h4 className="bg-dark mr-5 text-light">{myFoods.name}</h4>
-                  <h6 className="border bg-dark text-light">R{myFoods.price}</h6>
-                  <span className="border bg-dark text-light">Free Delivery</span>
+                  <h4 className="bg-dark mr-5 text-light" style={{borderRadius: "5px"}}>{myFoods.name}</h4>
+                  <h6 className="border bg-dark text-light" style={{borderRadius: "5px"}}>R{myFoods.price}</h6>
+                  <span className="border bg-dark text-light" style={{borderRadius: "5px"}}>Free Delivery</span>
                   <div className="">
                     <button
                       className="add-button mt-3 animate__heartBeat"

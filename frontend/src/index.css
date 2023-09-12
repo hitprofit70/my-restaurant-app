@@ -1,8 +1,9 @@
 body {
-  background-image: url(./assets/istockphoto-1472950710-612x612.jpg);
+  /* background-image: url(./assets/istockphoto-1472950710-612x612.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background: repeating-linear-gradient(rgba(165, 42, 42, 0.345), rgba(255, 255, 255, 0.296));
 }
 
 /* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"); */
@@ -61,6 +62,12 @@ body {
   transition: 1s;
 }
 
+
+/* cart page */
+.items-group {
+  background-color: rgba(255, 255, 255, 0.378);
+  margin-bottom: 10px;
+}
 
 /* footer page */
 .footer {

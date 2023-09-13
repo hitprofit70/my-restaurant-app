@@ -29,7 +29,7 @@ body {
 
 .products-card {
   display: grid;
-  grid-template-columns: 330px 330px 330px 330px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .view-button {
@@ -67,6 +67,30 @@ body {
 .items-group {
   background-color: rgba(255, 255, 255, 0.378);
   margin-bottom: 10px;
+}
+
+.item-name {
+  margin-left: 250px;
+  margin-top: -240px;
+}
+
+.item-price {
+  margin-left: 250px;
+}
+
+.checkout-btn {
+  background: linear-gradient(black);
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  margin-left: 330px;
+}
+
+.checkout-btn:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+  transition: 1s;
 }
 
 /* footer page */
